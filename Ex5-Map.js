@@ -1,7 +1,7 @@
 // Ex5: Map (Higher Order Functions)
 // Array of animals
 
-const animals = [
+var animals = [
   {
     name: "cat",
     size: "small",
@@ -25,9 +25,9 @@ const animals = [
 ]
 
 // Example of the old imperative way of iterating arrays
-// let animal_names = []
+// var animal_names = []
 //
-// for(let i=0; i<animals.length; i++){
+// for(var i=0; i<animals.length; i++){
 //   animal_names.push(animals[i].name);
 // }
 
@@ -38,7 +38,7 @@ const animals = [
 // Please give food to animals whose weight is above 100.
 // Only change code below this line.
 
-let animal_names = animals.map(function(animal) {
+var animal_names = animals.map(function(animal) {
   return {
     name: animal.name,
     size: animal.size,
