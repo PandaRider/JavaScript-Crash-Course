@@ -4,7 +4,7 @@
 // sum() returns the sum of saved values.
 // mul() multiplies saved values and returns the result.
 
-let calculator = {
+var calculator = {
   // ... your code ...
 };
 
