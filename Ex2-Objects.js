@@ -6,4 +6,5 @@
 // Add the property like with a boolean value
 var user = {};
 
+// uncomment the following line to see the output in console
 // console.log(`${user.name} ${user.age} ${user.like ? "likes" : "doesn't like"} SUTD`)
